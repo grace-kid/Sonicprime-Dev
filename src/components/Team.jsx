@@ -1,5 +1,8 @@
 const team = [
   { name: "Benson Okoye", role: "CEO & Founder", img: "https://i.pravatar.cc/480?img=5" },
+  { name: "Micheal Chen", role: "Team Lead", img: "https://i.pravatar.cc/480?img=32" },
+  { name: "Micheal Chen", role: "Team Lead", img: "https://i.pravatar.cc/480?img=32" },
+  { name: "Micheal Chen", role: "Team Lead", img: "https://i.pravatar.cc/480?img=32" },
   { name: "Charles Chris", role: "Head of Education", img: "https://i.pravatar.cc/480?img=12" },
   { name: "Micheal Chen", role: "Team Lead", img: "https://i.pravatar.cc/480?img=32" },
 ];
@@ -14,16 +17,16 @@ const IconIn = () => (
 export default function Team() {
   return (
     <section className="bg-gradient-to-b from-white to-indigo-200 py-16">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className=" px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center">Meet Our Team</h2>
         <p className="text-center text-slate-600 mt-2">
           Meet the experts behind our success
         </p>
 
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
+        <div className="mt-10  w-full flex overflow-x-scroll  ">
           {team.map((m) => (
-            <div key={m.name} className="rounded-2xl bg-white shadow-lg overflow-hidden">
-              <img src={m.img} alt="" className="h-72 w-full object-cover" />
+            <div key={m.name} className="rounded-2xl p-5 bg-white m-5 shadow-lg ">
+              <img src={m.img} alt="" className="h-52 m-5 w-42 object-cover" />
               <div className="p-5">
                 <div className="font-semibold">{m.name}</div>
                 <div className="text-blue-700 text-sm">{m.role}</div>

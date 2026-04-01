@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
+// import Hero from "./components/Hero";
+// import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Team from "./components/Team";
 import About from "./components/About";
@@ -12,12 +12,13 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="text-slate-900 bg-white">
+    <div className="bg-white overflow-hidden w-full min-w-[1444px] min-h-[10294px] relative">
+ 
       <Navbar />
 
       {/* Sections */}
-      <section id="home"><Hero /></section>
-      <section id="projects"><Projects /></section>
+      {/* <section id="home"><Hero /></section> */}
+      {/* <section id="projects"><Projects /></section> */}
       <section id="services"><Services /></section>
       <section id="team"><Team /></section>
       <section id="about"><About /></section>
