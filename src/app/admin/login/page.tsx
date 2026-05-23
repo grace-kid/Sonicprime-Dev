@@ -69,9 +69,7 @@ export default function AdminLogin() {
           </button>
         </form>
 
-        <p className="text-center text-gray-600 text-xs mt-6">
-          Default password: <code className="text-gray-400">sonicprime2025</code>
-        </p>
+
       </div>
     </div>
   )
