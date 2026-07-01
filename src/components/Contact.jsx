@@ -24,9 +24,9 @@ export default function Contact() {
           <div className="rounded-2xl bg-white p-6 shadow">
             <h4 className="font-semibold mb-3">Contact Information</h4>
             <ul className="space-y-2 text-slate-700">
-              <li><strong>Address:</strong> 123 Tech94025 Street, Silicon Valley, CA</li>
-              <li><strong>Phone:</strong> +1 (234) 567-890</li>
-              <li><strong>Email:</strong> info@bchub.com</li>
+              <li><strong>Address:</strong> Agbani, ESUT, Enugu, Nigeria</li>
+              <li><strong>Phone:</strong> +(234) 7082865002</li>
+              <li><strong>Email:</strong> sonicprimedev@gmail.com</li>
             </ul>
           </div>
           <div className="rounded-2xl bg-white p-6 shadow">
